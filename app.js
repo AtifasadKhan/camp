@@ -17,7 +17,7 @@ engine = require('ejs-mate');
 // mongoose.connect('dbUrl', {
 
 mongoose.connect(
-  'mongodb+srv://lDraGo:cO0XDViDrMfAoma3@cluster0.lak4c.mongodb.net/camps',
+  'dbURL',
   {
     useNewUrlParser: true,
     useCreateIndex: true,
